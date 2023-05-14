@@ -1,0 +1,106 @@
+/* body */
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #434455;
+    background-color: #fff;}
+/* addres */
+
+
+.
+    .address-contact-link{
+        font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 1.5;
+            letter-spacing: 0.02em;
+            color: #434455;
+    }
+    /* section 1 */
+
+
+
+        .portfolio-hero-btn-all{
+            background: #404BBF;
+                box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+                border-radius: 4px;
+        }
+
+                .portfolio-button{
+font-family: inherit;
+font-weight: 500;
+font-size: 3.2;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.04em;
+color: var(--third-text-color);
+background-color: var(--primary-background-color);
+cursor:pointer ;
+                }
+                
+
+        .font-title{
+                font-weight: 500;
+                font-size: 20px;
+                line-height: 1.20;
+                letter-spacing: 0.02em;
+                color: var(--third-text-color)
+        }
+        .portfolio-button:hover,
+        .portfolio-button:focus{
+            color: var(--white-color);
+            background-color: var(--accent-color);
+        }
+        .font-text{
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 24px;
+                letter-spacing: 0.02em;
+                color:var(--third-text-color);
+        }
+        /* footer */
+                .footter-general{
+                    background: #2E2F42;
+                }
+
+            .footer-logo-web{
+                font-family: 'Raleway',sans-serif;
+                    font-style: normal;
+                    font-weight: 800;
+                    font-size: 18px;
+                    line-height: 1.16;
+                    display: flex;
+                    align-items: center;
+                    letter-spacing: 0.03em;
+                    text-transform: uppercase;
+                    color: #4D5AE5;
+                    flex: none;
+                    order: 0;
+                    flex-grow: 0;
+            }
+                    .logo-studio-link{
+                        font-family: 'Raleway',sans-serif
+                            font-style: normal;
+                            font-weight: 800;
+                            font-size: 18px;
+                            line-height: 1.16;
+                            display: flex;
+                            align-items: center;
+                            letter-spacing: 0.03em;
+                            text-transform: uppercase;
+                            color: #F4F4FD;
+                            flex: none;
+                            order: 1;
+                            flex-grow: 0;
+                    }
+                   .footer-general-content{
+                    font-family: 'Roboto';
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 16px;
+                        line-height: 1.5;
+                        letter-spacing: 0.02em;
+                        color: #F4F4FD;
+                   }

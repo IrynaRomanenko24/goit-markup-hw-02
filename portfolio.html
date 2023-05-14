@@ -11,7 +11,7 @@
       href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,700;1,400&family=Raleway:wght@800&family=Roboto:wght@400;500;700&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="/css.style/style.css.portfolio" />
+    <link href="./css.style/css.style.css" rel="stylesheet" />
   </head>
   <body>
     <header class="header">
@@ -28,12 +28,12 @@
         </ul>
       </nav>
       <!--address-->
-      <address>
-        <ul>
-          <li>
+      <address class="header-address">
+        <ul class="address-link-list">
+          <li class="address-contact-link">
             <a href="mailto:info@devstudio.com">info@devstudio.com</a>
           </li>
-          <li>
+          <li class="address-contact-link">
             <a href="tel:+110001111111">+11 (000) 111-11-11</a>
           </li>
         </ul>
@@ -44,27 +44,30 @@
 
       <!--Section 1-->
       <section class="Portfolio-hero">
-        <h1 class="portfolio-hidden"></h1>
+        <h1 class="portfolio-hidden" hidden>features</h1>
         <ul class="portfolio-hero-list list">
-          <li><button type="button-all">All</button></li>
-          <li class="portfolio-hero-btn">
-            <button type="button-web">Web Site</button>
+          <li class="portfolio-hero-btn-all">
+            <button type="portfolio-button button">All</button>
           </li>
           <li class="portfolio-hero-btn">
-            <button type="button-app">App</button>
+            <button type="portfolio-button">Web Site</button>
           </li>
           <li class="portfolio-hero-btn">
-            <button type="button-desind">Design</button>
+            <button type="portfolio-button">App</button>
           </li>
           <li class="portfolio-hero-btn">
-            <button type="button-marketing">Marketing</button>
+            <button type="portfolio-button">Design</button>
+          </li>
+          <li class="portfolio-hero-btn">
+            <button type="portfolio-button">Marketing</button>
           </li>
         </ul>
-        <ul>
+        <!--section 2-->
+        <ul class="list">
           <li>
             <img src="./images/imgport1.jpg" alt="Banking App" width="360" />
             <h2 class="font-title">Banking App Interface concept</h2>
-            <p class="Front">App</p>
+            <p class="front">App</p>
           </li>
           <li>
             <img src="./images/imgport2.jpg" alt="Payment" width="360" />
@@ -117,9 +120,9 @@
         </ul>
       </section>
     </main>
-    <footer class="general portfolio">
+    <footer class="footter-general">
       <a href="./index.html" class="footer-logo-web"
-        >Web <span>Studio </span></a
+        >Web<span class="logo-studio-link">Studio </span></a
       >
       <p class="footer-general-content">
         Increase the flow of customers and sales for your business with digital
