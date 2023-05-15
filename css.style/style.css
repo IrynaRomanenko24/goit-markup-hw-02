@@ -177,13 +177,14 @@ list-style: none;
      /* section 4 */
 
      .workers-team {
-         background: var(--primari-text-color);
+         background-color: #F4F4FD;
      }
          .workers-gallery-list{
+            background-color: #FFFFFF;
             list-style: none;
          }
 
-     .team-list {
+     .workers-gallery-item {
          font-family: 'Roboto';
          font-style: normal;
          font-weight: 700;
@@ -192,7 +193,7 @@ list-style: none;
          text-align: center;
          letter-spacing: 0.02em;
          text-transform: capitalize;
-         color: var(--primari-text-color);
+         color:#2e2f24;
 
      }
 
