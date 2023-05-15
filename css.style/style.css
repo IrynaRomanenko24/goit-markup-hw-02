@@ -6,10 +6,11 @@
          background-color: #fff;
 
      }
-        Link{
-            text-decoration: none;
-        }
+       
      /*  header*/
+         .header-link:hover {color:#404bbf;
+    ;
+         }
      .header-menu-link {
          font-family: 'Roboto';
          font-style: normal;
@@ -17,8 +18,9 @@
          font-size: 16px;
          line-height: 1.5;
          letter-spacing: 0.02em;
-         color: #2E2F42;
+         color: #2e2f24;
          list-style: none;
+         text-decoration: none;
      }
 
          .header-item{
@@ -48,12 +50,13 @@
          font-style: normal;
          font-weight: 800;
          font-size: 18px;
-         line-height: 1.16;
+         line-height: 1.17;
          display: flex;
          align-items: center;
          letter-spacing: 0.03em;
          text-transform: uppercase;
          color: #4D5AE5;
+         text-decoration: none;
         
      }
 
@@ -62,16 +65,21 @@
          font-style: normal;
          font-weight: 800;
          font-size: 18px;
-         line-height: 1.16;
+         line-height: 1.17;
          display: flex;
          align-items: center;
          letter-spacing: 0.03em;
          text-transform: uppercase;
-         color: #2E2F42;
+         color: #2e2ef42;
          ;
      }
 
      /* address */
+
+          .header-address{
+            font-style: normal;
+            color: #434455;
+          }
 
      .address-contacts-link{
         font-family: 'Roboto';
@@ -84,11 +92,8 @@
             list-style: none;
      }
 
-     /* section 1 */
-
-     .hero {
-         background: #2E2F42;
-     }
+    
+     /* hero */
 
      .maim-hero {
        
