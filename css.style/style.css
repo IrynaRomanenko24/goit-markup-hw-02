@@ -6,7 +6,9 @@
          background-color: #fff;
 
      }
-
+        Link{
+            text-decoration: none;
+        }
      /*  header*/
      .header-menu-link {
          font-family: 'Roboto';
@@ -16,7 +18,6 @@
          line-height: 1.5;
          letter-spacing: 0.02em;
          color: #2E2F42;
-         text-decoration: none;
          list-style: none;
      }
 
@@ -28,7 +29,7 @@
                 line-height: 1.5;
                 letter-spacing: 0.02em;
                 color: #2E2F42;
-                text-decoration: none;
+        
          }
                  .header-list{
                     font-family: 'Roboto';
@@ -38,7 +39,7 @@
                         line-height: 1.5;
                         letter-spacing: 0.02em;
                         color: #2E2F42;
-                        text-decoration: none;
+        
       }
                  
 
