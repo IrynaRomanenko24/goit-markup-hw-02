@@ -6,6 +6,12 @@ body {
     background-color: #fff;}
 
     /* header */
+        .list-link:hover{
+            color: #404BBF;
+        }
+        .list-link :focus{
+            color: #404BBF;
+        }
  .header-menu-link-list {
      font-family: 'Roboto';
      font-style: normal;
@@ -38,12 +44,13 @@ body {
      font-style: normal;
      font-weight: 800;
      font-size: 18px;
-     line-height: 1.16;
+     line-height: 1.17;
      display: flex;
      align-items: center;
      letter-spacing: 0.03em;
      text-transform: uppercase;
      color: #4D5AE5;
+     text-decoration: none;
 
  }
 
@@ -82,9 +89,10 @@ body {
 .portfolio-hidden{
     list-style: none;
 }
-.portfolio-hero-list{
+.portfolio-hero-list:focus{color:#404BBF;
     list-style: none;
     text-decoration: none;
+
 }
 
         .portfolio-hero-btn-all{
