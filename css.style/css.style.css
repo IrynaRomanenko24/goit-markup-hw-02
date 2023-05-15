@@ -17,7 +17,7 @@ body {
      list-style: none;
  }
 
- .header-item {
+ .header-list-link {
      font-family: 'Roboto';
      font-style: normal;
      font-weight: 500;
@@ -26,20 +26,11 @@ body {
      letter-spacing: 0.02em;
      color: #2E2F42;
      list-style: none;
-
- }
-
- .header-list {
-     font-family: 'Roboto';
-     font-style: normal;
-     font-weight: 500;
-     font-size: 16px;
-     line-height: 1.5;
-     letter-spacing: 0.02em;
-     color: #2E2F42;
      text-decoration: none;
-     list-style: none;
+
  }
+
+
 
 
  .header-logo-web {
