@@ -93,6 +93,7 @@ body {
 }
 .portfolio-hero-list{
     list-style: none;
+    text-decoration: none;
 }
 
         .portfolio-hero-btn-all{
@@ -116,7 +117,7 @@ cursor:pointer ;
 list-style: none;
                 }
         /* section -2 */
-        .list{
+        .profile-list{
             list-style: none;
         }
 
