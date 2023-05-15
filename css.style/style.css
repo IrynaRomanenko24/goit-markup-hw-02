@@ -75,13 +75,15 @@
      }
 
      /* address */
-
+          .address-list-link :hover{ 
+            color: #404bbf;
+        }
           .header-address{
             font-style: normal;
             color: #434455;
-          }
+     }
 
-     .address-contacts-link{
+     .address-contacts-link ;{
         font-family: 'Roboto';
             font-style: normal;
             font-weight: 400;
