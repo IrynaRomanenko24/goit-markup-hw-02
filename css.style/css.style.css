@@ -100,8 +100,8 @@ body {
                 border-radius: 4px;
         }
 
-                .portfolio-button ;:focus{
-                    color: #FFFFFF;
+                .portfolio-button{
+                    
 font-family: "Roboto" sans-serif;
 font-weight: 500;
 font-size: 16px;
@@ -125,7 +125,7 @@ list-style: none;
                 font-size: 20px;
                 line-height: 1.20;
                 letter-spacing: 0.02em;
-                color: var(--third-text-color);
+                color:#2E2F42;
                 list-style: none;
                 
         }
@@ -137,9 +137,9 @@ list-style: none;
         .font-text{
                 font-weight: 400;
                 font-size: 16px;
-                line-height: 24px;
+                line-height: 1.5;
                 letter-spacing: 0.02em;
-                color:var(--third-text-color);
+                color:#434455;
                 list-style: none;
         }
         /* footer */
