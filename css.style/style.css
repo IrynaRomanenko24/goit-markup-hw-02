@@ -11,11 +11,13 @@
      .header-menu-link {
          font-family: 'Roboto';
          font-style: normal;
-         font-weight: 500;
+         font-weight: 700;
          font-size: 16px;
          line-height: 1.5;
          letter-spacing: 0.02em;
          color: #2E2F42;
+         text-decoration: none;
+         list-style: none;
      }
 
          .header-item{
@@ -26,6 +28,7 @@
                 line-height: 1.5;
                 letter-spacing: 0.02em;
                 color: #2E2F42;
+                text-decoration: none;
          }
                  .header-list{
                     font-family: 'Roboto';
@@ -35,8 +38,9 @@
                         line-height: 1.5;
                         letter-spacing: 0.02em;
                         color: #2E2F42;
+                        text-decoration: none;
       }
-                 }
+                 
 
      .header-logo-web {
          font-family: 'Raleway', sans-serif;
@@ -68,7 +72,7 @@
 
      /* address */
 
-     .address-list-link {
+     .address-contacts-link{
         font-family: 'Roboto';
             font-style: normal;
             font-weight: 400;
@@ -76,6 +80,7 @@
             line-height: 1.5;
             letter-spacing: 0.02em;
             color: #434455;
+            list-style: none;
      }
 
      /* section 1 */
@@ -106,7 +111,6 @@
 
      /* section 2 */
 
-     .about-work {}
 
      .about-work-list {
          font-family: 'Roboto';
@@ -120,6 +124,9 @@
          order: 0;
          flex-grow: 0;
      }
+         .features-list{
+list-style: none;
+         }
 
      .features-work-list {
          font-family: 'Roboto';
@@ -135,6 +142,7 @@
      }
 
      /* section 3 */
+         
      .strategy {
          font-family: 'Roboto';
          font-style: normal;
@@ -148,7 +156,9 @@
 
      }
 
-     .gallery-list {}
+     .gallery-list {
+        list-style: none;
+     }
 
      .gallery-item {
          box-sizing: border-box;
@@ -167,6 +177,9 @@
      .workers-team {
          background: var(--primari-text-color);
      }
+         .workers-gallery-list{
+            list-style: none;
+         }
 
      .team-list {
          font-family: 'Roboto';
@@ -229,7 +242,8 @@
      }
 
      .logo-studio-link {
-        font-family: 'Raleway', sans-serif font-style: normal;
+        font-family: 'Raleway', sans-serif;
+         font-style: normal;
             font-weight: 800;
             font-size: 18px;
             line-height: 1.16;
