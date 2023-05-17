@@ -70,7 +70,7 @@
          align-items: center;
          letter-spacing: 0.03em;
          text-transform: uppercase;
-         color: #2e2ef42;
+         color: #2E2F42;
          ;
      }
 
@@ -83,7 +83,7 @@
             color: #434455;
      }
 
-     .address-contacts-link ;{
+     .address-contacts-link{
         font-family: 'Roboto';
             font-style: normal;
             font-weight: 400;
@@ -218,7 +218,6 @@ list-style: none;
          text-align: center;
          letter-spacing: 0.02em;
          color: var(--primari-text-color);
-       0;
      }
 
      /* Footer */
