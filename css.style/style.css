@@ -83,7 +83,9 @@
                 .address-contacts-link:focus{
                     color: #404bbf;
                 }
-
+                .address-list{
+                    list-style: none;
+                }
          
                 .header-address{
                  font-style: normal;
@@ -144,11 +146,11 @@
          line-height: 1.2;
          letter-spacing: 0.02em;
          color: #2E2F42;
-         list-style: none;
+        
         
      }
-         .features-list{
-list-style: none;
+         .about-work-list{
+         list-style: none;
          }
 
      .features-work-list {
@@ -159,7 +161,6 @@ list-style: none;
          line-height: 1.11;
          letter-spacing: 0.02em;
          color: #434455;
-         list-style: none;
      
      }
 
