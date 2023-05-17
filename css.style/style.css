@@ -12,13 +12,13 @@
          background-color: #fff;
 
      }
-                  :root {
-                      color: #404bbf;
-                  }
+                
      /*  header*/
          .header-link:hover {color:#404bbf;
-    
          }
+                   :root {
+                       color: #404bbf;
+                   }
      .header-menu-link {
          font-family: 'Roboto';
          font-style: normal;
