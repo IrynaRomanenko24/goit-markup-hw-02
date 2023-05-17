@@ -6,7 +6,9 @@
          background-color: #fff;
 
      }
-       
+                  :root {
+                      color: #404bbf;
+                  }
      /*  header*/
          .header-link:hover {color:#404bbf;
     
@@ -92,9 +94,6 @@
                  color: #434455;
                 }
 
-                :root{
-                color:#404bbf;
-                }
 
                 .link{
                 text-decoration: none;
