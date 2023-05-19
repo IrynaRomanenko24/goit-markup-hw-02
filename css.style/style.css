@@ -101,7 +101,9 @@
      .hero-main-btn:hover,
      .hero-main-btn:focus {
      background: #4D5AE5;
-    color: #FFFFFF;}
+    color: #FFFFFF;
+    cursor: pointer;
+}
     
     .hero-main-btn{
     font-family: 'Roboto';
@@ -112,7 +114,6 @@
     display: flex;
     align-items: center;
     letter-spacing: 0.04em;
-   cursor: pointer;
      }
 
 
