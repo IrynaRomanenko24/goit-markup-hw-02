@@ -19,7 +19,7 @@ body {
             color: #404BBF;
         }
         
- .header-menu-link-list {
+ .header-menu-link {
      font-family: 'Roboto';
      font-style: normal;
      font-weight: 500;
@@ -30,15 +30,6 @@ body {
    
  }
 
- .header-list-link {
-     font-family: 'Roboto';
-     font-style: normal;
-     font-weight: 500;
-     font-size: 16px;
-     line-height: 1.5;
-     letter-spacing: 0.02em;
-     color: #2E2F42;
- }
  .header-logo-web {
      font-family: 'Raleway', sans-serif;
      font-style: normal;
@@ -53,7 +44,7 @@ body {
 
  }
 
- .logo-studio-link {
+ .logo-studio {
      font-family: 'Raleway', sans-serif;
      font-style: normal;
      font-weight: 800;
@@ -71,12 +62,14 @@ body {
 
 /* addres */
 
-.address-contact-link :hover{
+    .address-contact-link :hover,
+   .address-contact-link :focus
+                                 {
     color:#404bbf;
-    list-style: none;
+
 }
 
-  .header-address-link-list{
+  .address-contact-link{
     font-family: 'Roboto';
         font-style: normal;
         font-weight: 400;
