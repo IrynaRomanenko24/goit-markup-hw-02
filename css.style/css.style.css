@@ -3,6 +3,9 @@
  *{
     text-decoration: none;
  }
+ :root{--accent-color:#404bbf;
+
+ }
 /* body */
 
 body {
@@ -11,12 +14,11 @@ body {
     background-color: #fff;}
 
     /* header */
-        .list-link:hover{
+        .list-link:hover,
+         .list-link :focus{
             color: #404BBF;
         }
-        .list-link :focus{
-            color: #404BBF;
-        }
+        
  .header-menu-link-list {
      font-family: 'Roboto';
      font-style: normal;
@@ -25,8 +27,7 @@ body {
      line-height: 1.5;
      letter-spacing: 0.02em;
      color: #2E2F42;
-     list-style: none;
-     text-decoration: none;
+   
  }
 
  .header-list-link {
@@ -37,9 +38,6 @@ body {
      line-height: 1.5;
      letter-spacing: 0.02em;
      color: #2E2F42;
-     list-style: none;
-     text-decoration: none;
-
  }
  .header-logo-web {
      font-family: 'Raleway', sans-serif;
