@@ -84,7 +84,9 @@
 
     
      /* hero */
-
+.hero{
+    background: #2E2F42;
+}
      .maim-hero {
        
         font-family: 'Roboto';
@@ -95,18 +97,16 @@
             text-align: center;
             letter-spacing: 0.02em;
             color: #FFFFFF;
-
      }
 
      .hero-main-btn:hover,
      .hero-main-btn:focus {
-     background: #4D5AE5;
-    color: #FFFFFF;
-    cursor: pointer;
+     background-color: #404bbf;
+    
 }
     
     .hero-main-btn{
-    font-family: 'Roboto';
+    font-family: 'Roboto',sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -114,6 +114,9 @@
     display: flex;
     align-items: center;
     letter-spacing: 0.04em;
+    cursor: pointer;
+    background-color: #4d5ae5;
+    color:#FFFFFF;
      }
 
 
