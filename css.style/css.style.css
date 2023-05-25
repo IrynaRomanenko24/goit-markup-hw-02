@@ -1,12 +1,12 @@
-       *{list-style: none;
-        }
+      
+      *{list-style: none;}
 
 
         *{
         text-decoration: none;}
 
 
-         :root{--accent-color:#404bbf; }
+        :root{--accent-color:#404bbf; }
 
         
         /* body */
@@ -75,6 +75,11 @@
         .address-contact-link :hover,
         .address-contact-link :focus {
         color:#404bbf;}
+
+
+
+        .header-address {
+         font-style: normal;}
 
 
 
