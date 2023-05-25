@@ -22,9 +22,9 @@
     list-style: none;
     } 
 
-    .header-menu-link:hover,
+    .header-menu-link:hover
     .header-menu-link:focus{
-        color: #404bbf;
+        color:#404bbf;
     }
     
          .header-menu-link{
@@ -204,7 +204,7 @@
                  }
          
      .workers-gallery-item {
-    background: #F4F4FD;
+    background-color: #FFFFFF;
      }
 
      .workers-name {
