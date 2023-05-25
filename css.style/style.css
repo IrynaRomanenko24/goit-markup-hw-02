@@ -18,25 +18,27 @@
      /*  header*/
 
      
-           
+    .menu{
+    list-style: none;
+    } 
+
     .header-menu-link:hover,
     .header-menu-link:focus{
         color: #404bbf;
     }
     
          .header-menu-link{
-            font-family: 'Roboto';
-                font-style: normal;
-                font-weight: 500;
-                font-size: 16px;
-                line-height: 1.5;
-                letter-spacing: 0.02em;
-                color: #2E2F42;
-                list-style: none;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #2E2F42;
+        list-style: none;
+        text-decoration: none;
          }
    
-                 
-
        .header-logo-web {
          font-family: 'Raleway', sans-serif;
          font-style: normal;
@@ -67,20 +69,25 @@
      }
 
      /* address */
-                 .address-contacts-link :hover, 
-                .address-contacts-link:focus{
-                    color: #434455;;
-                }
 
-                .address-contacts-link{
-                 font-family: 'Roboto';
-                 font-style: normal;
-                 font-weight: 400;
-                 font-size: 16px;
-                 line-height: 1.5;
-                 letter-spacing: 0.02em;
-                 color: #2E2F42;
-                }
+
+         .header-address{
+            font-style: normal;
+         }
+
+        .address-contacts-link :hover, 
+        .address-contacts-link:focus{
+        color: #404bbf;;}
+
+
+        .address-contacts-link{
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #434455;}
 
     
      /* hero */
@@ -102,6 +109,7 @@
      .hero-main-btn:hover,
      .hero-main-btn:focus {
      background-color: #404bbf;
+     color:#FFFFFF;
     
 }
     
