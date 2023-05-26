@@ -12,7 +12,7 @@
         /* body */
 
         body {
-        font-family: 'Roboto', sans-serif;
+        font-family: "Roboto", sans-serif;
         color: #434455;
         background-color: #fff;}
 
@@ -98,7 +98,7 @@
 
 
         .portfolio-hero-btn-all{
-        font-family: 'Roboto' sans-serif;
+        font-family:"Roboto",sans-serif;
         font-style: normal;
         font-weight: 500;
         font-size: 16px;
@@ -113,7 +113,7 @@
 
 
         .portfolio-button{
-        font-family: "Roboto" sans-serif;
+        font-family: "Roboto", sans-serif;
         font-weight: 500;
         font-size: 16px;
         display: flex;
@@ -132,7 +132,7 @@
         .font-title{
         font-weight: 500;
         font-size: 20px;
-        line-height: 1.20;
+        line-height: 1.5;
         letter-spacing: 0.02em;
         color:#2E2F42;
         list-style: none;} 
