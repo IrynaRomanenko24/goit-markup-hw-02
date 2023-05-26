@@ -24,8 +24,8 @@
         }
 
 
-        .header-menu-link:hover
-        .header-menu-link :focus{
+        .header-menu-link:hover,
+        .header-menu-link:focus{
          color: #404BBF;
         }
         
@@ -72,8 +72,8 @@
                   /* addres */
 
 
-        .address-contact-link :hover,
-        .address-contact-link :focus {
+        .address-contact-link:hover,
+        .address-contact-link:focus {
         color:#404bbf;}
 
 

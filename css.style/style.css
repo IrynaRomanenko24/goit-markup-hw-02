@@ -85,7 +85,7 @@
 
 
 
-        .address-contacts-link :hover, 
+        .address-contacts-link:hover, 
         .address-contacts-link:focus{
         color:#404bbf;}
 
@@ -107,7 +107,7 @@
         background: #2E2F42;}
 
 
-        .maim-hero {
+        .main-hero {
         font-family: 'Roboto';
         font-style: normal;
         font-weight: 700;
