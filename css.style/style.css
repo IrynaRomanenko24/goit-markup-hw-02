@@ -4,7 +4,13 @@
        *{
         text-decoration: none;
         }
-        :root{ --accent-color:#404bbf
+        :root{ --color-primary:#2e2f42;
+            --color-brand:#4d5ae5;
+            --invert-color:#ffffff;
+            --secondary-color:#434455;
+            --light-color:#f4f4f4;
+            --color-active:#404bbf;
+            --border-color:#e7e9fc;
         }
                         /* body */
 
@@ -25,7 +31,7 @@
 
         .header-menu-link:hover
         .header-menu-link:focus{
-         color:#404bbf; }
+         color: var(--color-active); }
 
     
          .header-menu-link{
