@@ -125,7 +125,9 @@
         background-color:#F4F4FD;
         cursor:pointer ;}
 
-
+        .list{
+            list-style: none;
+        }
   
         .font-title{
         font-weight: 500;
