@@ -104,6 +104,11 @@
         
                  /* section-hero */
 
+       .portfolio-hero-btn-all:hover,
+       .portfolio-hero-btn-all:focus {
+        color: #ffffff;
+        background-color: #404bbf;}
+
 
         .portfolio-hero-btn-all{
         font-family:"Roboto",sans-serif;
