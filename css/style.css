@@ -31,7 +31,7 @@
         list-style: none;
         } 
 
-        .header-menu-link:hover
+        .header-menu-link:hover,
         .header-menu-link:focus{
          color:#404bbf; }
 
