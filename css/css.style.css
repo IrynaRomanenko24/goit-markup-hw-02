@@ -6,7 +6,15 @@
         text-decoration: none;}
 
 
-        :root{--accent-color:#404bbf; }
+        :root{
+          --color-primary: #2e2f42;
+          --color-brand: #4d5ae5;
+          --invert-color: #ffffff;
+          --secondary-color: #434455;
+          --light-color: #f4f4f4;
+          --color-active: #404bbf;
+          --border-color: #e7e9fc;
+         }
 
         
         /* body */
@@ -131,9 +139,9 @@
         .font-title{
         font-weight: 500;
         font-size: 20px;
-        line-height: 1.5;
+        line-height: 1.2;
         letter-spacing: 0.02em;
-        color:#2E2F42;
+        color:var(--secondary-color);
         list-style: none;} 
 
 
