@@ -124,8 +124,7 @@
         color:#FFFFFF;}
 
 
-    
-        .hero-main-btn{
+        .main-hero-btn {
         font-family: 'Roboto',sans-serif;
         font-style: normal;
         font-weight: 500;
@@ -135,7 +134,9 @@
         align-items: center;
         letter-spacing: 0.04em;
         cursor: pointer;
-        color: #FFFFFF;}
+        color: #FFFFFF;
+        background-color: #4d5ae5;
+      }
 
 
             /* section 2 */
