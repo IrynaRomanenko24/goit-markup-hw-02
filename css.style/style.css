@@ -31,7 +31,7 @@
 
         .header-menu-link:hover
         .header-menu-link:focus{
-         color: var(--color-active); }
+         color:#404bbf; }
 
     
          .header-menu-link{
@@ -85,7 +85,7 @@
 
         .address-contacts-link :hover, 
         .address-contacts-link:focus{
-        color: #404bbf;;}
+        color:#404bbf;}
 
 
         .address-contacts-link{
@@ -118,7 +118,7 @@
 
         .hero-main-btn:hover,
         .hero-main-btn:focus {
-        background-color: #404bbf;
+        background-color:var(--color-active);
         color:#FFFFFF;}
 
 
@@ -133,8 +133,7 @@
         align-items: center;
         letter-spacing: 0.04em;
         cursor: pointer;
-        background-color: #4d5ae5;
-        color:#FFFFFF; }
+        color: #FFFFFF;}
 
 
             /* section 2 */
